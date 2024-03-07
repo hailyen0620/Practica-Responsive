@@ -1,0 +1,21 @@
+.contenedor {
+    background-color: orange;
+    width: 30%;
+    margin: 0 auto;
+
+}
+
+@media only screen and (max-width: 480px) {
+    .contenedor {
+        background-color: yellow;
+        width: 100%;
+
+    }
+}
+@media only screen and (max-width: 481px) and (max-width:768px) {
+    .contenedor {
+        background-color: red;
+        width: 85%;
+    }
+    
+}
